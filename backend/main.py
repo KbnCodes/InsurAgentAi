@@ -19,6 +19,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from openai import OpenAI, OpenAIError
 from day3_agent import router as day3_router
+from day4_agent import router as day4_router
+from day5_workflow import router as day5_router
 
 load_dotenv()
 
@@ -31,6 +33,8 @@ app = FastAPI(
 )
 
 app.include_router(day3_router)
+app.include_router(day4_router)
+app.include_router(day5_router)
 
 app.add_middleware(
     CORSMiddleware,
