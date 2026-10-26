@@ -22,6 +22,7 @@ from day3_agent import router as day3_router
 from day4_agent import router as day4_router
 from day5_workflow import router as day5_router
 from day6_rag import router as day6_router
+from day7_rag import router as day7_router
 
 load_dotenv()
 
@@ -37,6 +38,7 @@ app.include_router(day3_router)
 app.include_router(day4_router)
 app.include_router(day5_router)
 app.include_router(day6_router)
+app.include_router(day7_router)
 
 app.add_middleware(
     CORSMiddleware,
