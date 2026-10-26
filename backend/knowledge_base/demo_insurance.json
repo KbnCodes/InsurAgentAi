@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": "DEMO-001",
+    "title": "Insurance Claim Number",
+    "category": "terminology",
+    "text": "A claim number is an identifier assigned to an insurance claim. It is used to reference that claim.",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "id": "DEMO-002",
+    "title": "Insurance Deductible",
+    "category": "terminology",
+    "text": "A deductible is an amount a policyholder may need to pay under an insurance policy. Whether a deductible applies depends on the policy terms.",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "id": "DEMO-003",
+    "title": "Insurance Premium",
+    "category": "terminology",
+    "text": "An insurance premium is the amount paid for insurance coverage under an insurance agreement.",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "id": "DEMO-004",
+    "title": "Motor Insurance",
+    "category": "terminology",
+    "text": "Motor insurance provides coverage for specified vehicle-related risks, subject to the terms, conditions and exclusions of the policy.",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "id": "DEMO-005",
+    "title": "General Claim Status",
+    "category": "terminology",
+    "text": "A claim status describes the current stage of an insurance claim. The actual status of a specific claim must be retrieved from an authorized claims system.",
+    "source_type": "synthetic_demo"
+  }
+]

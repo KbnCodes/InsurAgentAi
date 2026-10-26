@@ -21,6 +21,7 @@ from openai import OpenAI, OpenAIError
 from day3_agent import router as day3_router
 from day4_agent import router as day4_router
 from day5_workflow import router as day5_router
+from day6_rag import router as day6_router
 
 load_dotenv()
 
@@ -35,6 +36,7 @@ app = FastAPI(
 app.include_router(day3_router)
 app.include_router(day4_router)
 app.include_router(day5_router)
+app.include_router(day6_router)
 
 app.add_middleware(
     CORSMiddleware,
